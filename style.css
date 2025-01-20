@@ -1,0 +1,79 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #1e293b, #0f172a);
+    color: #f8fafc;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: #0f172a;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #3b82f6;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav {
+    background: #1e293b;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #3b82f6;
+}
+
+section a {
+    color: #9ca3af; /* Grey color for links inside sections */
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #94a3b8; /* Change on hover, if desired */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #0f172a;
+    color: #94a3b8;
+    font-size: 0.9em;
+}
